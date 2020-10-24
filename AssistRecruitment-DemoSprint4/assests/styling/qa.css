@@ -1,0 +1,271 @@
+/* Container next to the sidebar */
+.page__container {
+    width: 100%;
+    height: auto;
+    padding-right: 5rem;
+  }
+  
+  /* Page title */
+  .ce__title {
+    margin: 2rem 0;
+    color: #73b99b;
+    font-size: 3.5rem;
+  }
+  
+  .ce--form-row {
+    padding: 1.5rem 0;
+  }
+  
+  /* Label styling qa edit form */
+  .ce__label, .feedback--good, .feedback-bad,
+  .au__label {
+    font-size: 1.6rem;
+  }
+  
+  .ue-department__title {
+    font-size: 1.8rem;
+  }
+  
+  /* styling for feedback */
+  .feedback {
+    padding: 0.5rem 0;
+  }
+  
+  .feedback--good {
+    color: #28a745;
+  }
+  
+  .feedback-bad {
+    color: #dc3545;
+  }
+  
+  /* Input styling qa edit form */
+  .ce--input,
+  .au--input,
+  .form-control.ce--input,
+  .form-control.au--input {
+    font-size: 1.6rem;
+  }
+  
+  .search--icon {
+    position: absolute;
+    top: 20%;
+    left: 25px;
+    color: #d1d1d1;
+    font-size: 16px;
+  }
+  
+  .input__filter {
+    font-size: 1.6rem;
+    padding-left: 35px;
+  }
+  
+  .add-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  
+  .add-container__btn,
+  .add-container__btn:hover {
+    font-size: 1.6rem;
+    color: white;
+    background-color: #73b99b;
+  }
+  
+  select.form-control {
+    font-size: 1.6rem;
+  }
+  
+  /* Form validation feedback */
+  .ce__feedback {
+    padding-bottom: 0.5;
+  }
+  
+  .ce--margin {
+    margin-top: 1.5rem;
+  }
+  
+  
+  .btn.ce__update-button:hover, .ce-overview--link:hover {
+    color: white;
+    background-color: #73b99b;
+    border-color: #73b99b;
+  }
+  
+  .ce-overview--link {
+    margin-right: 1.5rem;
+  }
+  
+  /* qa details tables */
+  .ce-overview,
+  .dashboard__department {
+    margin-top: 8rem;
+  }
+  
+  .ce-overview__table {
+    padding: 50px 0;
+  }
+  
+  /* section title */
+  .ce-overview__title {
+    font-size: 3.2rem;
+    padding-bottom: 1.5rem;
+  }
+  
+  /* qa edit overview pills ul and tab content */
+  .nav-tabs,
+  .tab-content {
+    border: 1px solid #d1d1d1;
+  }
+  
+  /* qa edit overview pills li */
+  .ce-overview__tab {
+    padding: 0.4rem 0;
+  }
+  
+  /* overview pills hover */
+  .ce-overview__tab:hover {
+    background-color: #F7F7F7;
+  }
+  
+  .ce-overview--link:hover {
+    text-decoration: none;
+  }
+  
+  /* tab content container */
+  .tab-content__container {
+    padding: 1.5rem 0 0.5rem;
+  }
+  
+  /* qa edit overview pills tab content */
+  .tab-content {
+    border-top: none;
+  }
+  
+  /* qa edit overview pills tab container */
+  .tab-pane {
+    margin: 0 1.5rem 1.5rem;
+  }
+  
+  /* table status button */
+  .btn.btn-status {
+    color: black;
+    font-size: 1.6rem;
+    background-color: #d1d1d1;
+    border-color: #d1d1d1;
+  }
+  
+  .btn.btn-status:hover {
+    color: white;
+    background-color: #73b99b;
+    border-color: #73b99b;
+  }
+  
+  .tab-table__head,
+  .qa__th_name,
+  .qa__th_comment,
+  .qa__td_refrence {
+    position: relative;
+  }
+  
+  /* Styling for the sorting icons */
+  .table__icon-top,
+  .table__icon-bottom {
+    position: relative;
+  }
+  
+  /* Shared styling */
+  .table__icon, .table__icon-top, .table__icon-bottom {
+    width: 0;
+    height: 0;
+    display: inline-block;
+    line-height: inherit;
+    vertical-align: middle;
+    position: absolute;
+    margin-left: 15px;
+    cursor: pointer;
+    opacity: 0.5;
+  }
+  
+  /* Top styling */
+  .table__icon-top {
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 10px solid white;
+    top: 5px;
+  }
+  
+  /* Bottom styling */
+  .table__icon-bottom {
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 10px solid white;
+    bottom: 5px;
+  }
+  
+  /* Active styling */
+  .table__icon-top:hover,
+  .table__icon-bottom:hover,
+  .table__icon-active {
+    opacity: 1;
+  }
+  
+  .tab-table__row {
+    cursor: pointer;
+  }
+  
+  /* set a max with for the table cell */
+  .tab-table__td {
+    width: auto;
+    max-width: calc(70vw / 3);
+  }
+  
+  /* styling for autocomplete */
+  .autocomplete-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    /*position the autocomplete items to be the same width as the container:*/
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 1.5rem;
+  }
+  
+  .autocomplete-items div {
+    font-size: 1.6rem;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: 1px solid #d4d4d4;
+  }
+  
+  /* when hovering an item: */
+  .autocomplete-items div:hover {
+    background-color: #e9e9e9;
+  }
+  
+  /* modal styling */
+  .modal-title {
+    font-size: calc(16px * 1.25);
+  }
+  
+  .close {
+    font-size: calc(16px * 1.5);
+  }
+  
+  .modal-body, .modal-footer button {
+    font-size: 16px;
+  }
+  
+  .dashboard--subtitle {
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+  }
+  /*# sourceMappingURL=qa.css.map */

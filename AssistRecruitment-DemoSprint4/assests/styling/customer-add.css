@@ -1,0 +1,35 @@
+body{
+    font-size: 16px;
+}
+
+.page__title {
+    margin: 2rem 0;
+    color: #73b99b;
+}
+
+/** 1rem is 16px. Hij haalt rem uit je body font-size */
+.page__row {
+    padding: 1rem 0; 
+}
+
+.form__label {
+    color: #000;
+}
+
+.form-control.customer-add__input {
+    font-size: 16px;
+}
+
+/* customer edit update button */  
+.btn.btn-add {
+    color: black;
+    font-size: 1.6rem;
+    background-color: #d1d1d1;
+    border-color: #d1d1d1;
+}
+
+.btn.btn-add:hover {
+    color: white;
+    background-color: #73b99b;
+    border-color: #73b99b;
+}

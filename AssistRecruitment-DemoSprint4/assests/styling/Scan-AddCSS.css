@@ -1,0 +1,25 @@
+body {
+    font-size: 16px;
+}
+
+.page__container {
+    width: 100%;
+}
+
+/** 1rem is 16px. Hij haalt rem uit je body font-size */
+.page__row {
+    padding: 1rem;
+}
+
+.form__label {
+    color: #000;
+}
+
+/* inherit pakt de styling van het element erboven */
+.marvin__input{
+    font-size: inherit;
+}
+
+.marvin__select {
+    height: auto;
+}

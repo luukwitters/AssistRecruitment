@@ -1,0 +1,130 @@
+@import "variables";
+@import "mixins";
+ 
+  
+.customer__row {
+    padding: 5px;
+
+}
+
+.customer__th_name {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid $grey;
+    max-width: 1vw;
+}
+
+.customer__th_refrence{
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid $grey;
+    max-width: 1vw;
+}
+
+.customer__th_icon{
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid $grey;
+    max-width: 1vw;
+    align-content: center;
+}
+
+.customer__th_comment {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid $grey;
+    max-width: 3vw;
+}
+  
+.customer__td_comment {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid $grey;
+    max-width: 3vw;
+}
+
+.customer__td_name 
+{
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid $grey;
+    max-width: 1vw;    
+}
+
+.customer__td_refrence {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid $grey;
+    max-width: 1vw;
+}
+
+.customer__td_icon {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid $grey;
+    max-width: 1vw;
+}
+  
+th {
+    background-color: $green;
+    color: $white;
+    cursor: default;
+
+}
+  
+tr:hover {
+    background-color: #f5f5f5;
+    cursor:pointer;
+}
+  
+a.deleteKnop,
+a.deleteKnop:hover {
+    padding: 5px 10px;
+    color: $white;
+    background-color:  rgb(230, 101, 101);
+    border-radius: 10%;
+}
+
+.customer__header {
+    color: $green;
+    padding: 24px 0px;
+}
+  
+.editKnop,
+.editKnop:hover {
+    padding: 5px 10px;
+    color: $white;
+    background-color:  rgb(247, 184, 10);
+    border-radius: 10%;
+}
+  
+.profileKnop,
+.profileKnop:hover {
+    padding: 5px 10px;
+    color: $white;
+    background-color: #0ecfec;
+    border-radius: 10%;
+}
+
+.customer__select{
+    padding-bottom: 1rem;
+}
+
+select.form-control {
+    height: auto;
+}
+
+.btn.btn-status {
+    background-color: $grey;
+    border-color: $grey;
+}
+
+.btn.btn-status:hover {
+    background-color: $green;
+    border-color: $green;
+}
+
+.page__content {
+    width:100%;
+    padding-right: 5rem;
+    }

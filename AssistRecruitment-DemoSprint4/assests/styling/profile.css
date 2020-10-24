@@ -1,0 +1,49 @@
+
+  .page__content {
+    width: 100%;
+    padding-right: 5rem;
+  }
+
+  .ce__title {
+    color: #73b99b;
+    font-size: 30px;
+    padding: 40px 10px 5px 17px;
+  }
+
+  .ce_title {
+    color: #73b99b;
+    padding: 20px 0px 20px 15px;
+    font-size: 25px;
+  }
+
+  .txt_field{
+      width: 350px;
+      font-size: 15px;
+  }
+
+  .row{
+      padding-left: 20px;
+      padding-bottom: 10px;
+  }
+
+  .lbl_textfield{
+      font-size: 15px;
+  }
+
+  .btnSubmit {
+    color: black;
+    font-size: 1.6rem;
+    background-color: #d1d1d1;
+    border-color: #d1d1d1;
+}
+
+.btnSubmit:hover { 
+    color: white;
+    background-color: #73b99b;
+    border-color: #73b99b;
+}
+.btn__row{
+  padding-left: 305px;
+}
+
+  

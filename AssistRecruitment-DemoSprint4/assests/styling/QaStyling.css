@@ -1,0 +1,72 @@
+body{
+    font-size: 1.5rem;
+}
+
+#page-content {
+    width: 100%;
+    padding-right: 5rem;
+}
+
+#wrapper{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    height: 50%;
+}
+#FirstQaDiv{
+    width: 20%;
+}
+#SecondQaDiv{
+    width:80%;
+}
+#Icon {
+color: dimgray;
+}
+
+
+tr:hover {
+    background-color: #73b99b;
+}
+#CategoryAdd{
+    float:right;
+}
+th{
+    background-color: #73b99b;
+    color: white;
+}
+
+/* icon styling */
+.table--icon {
+    display: none;
+    color: rgb(255, 255, 255);
+    padding: 0 5px;
+}
+
+/* table hover maken */
+.category-tabel__row:hover{
+    background-color: rgb(115, 185, 155);
+}
+
+/* show icon on hover */
+.category-tabel__row:hover .table--icon{
+    display: inline-block;
+}
+.table--icon:hover, .table--icon:visited{
+    color: #005cbf;
+}
+.ButtonRight{
+    font-size: 1.5rem;
+    float: right;
+    background-color: #73b99b;
+}
+.QaTopMargin{
+    margin-top: 10%
+}
+.RuimteVragen{
+    margin-right:10px
+}
+.ButtonLeft{
+    font-size: 1.5rem;
+    float: left;
+    background-color: #73b99b;
+}

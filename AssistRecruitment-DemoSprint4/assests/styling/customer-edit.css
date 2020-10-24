@@ -1,0 +1,460 @@
+/* Container next to the sidebar */
+.page__container {
+  width: 100%;
+  height: auto;
+  padding-right: 5rem;
+}
+
+/* Page title */
+.ce__title {
+  margin: 2rem 0;
+  color: #73b99b;
+  font-size: 3.5rem;
+}
+
+.ce--form-row {
+  padding: 1.5rem 0;
+}
+
+/* Label styling customer edit form */
+.ce__label, .feedback--good, .feedback-bad,
+.au__label {
+  font-size: 1.6rem;
+}
+
+.ue-department__title {
+  font-size: 1.8rem;
+}
+
+/* styling for feedback */
+.feedback {
+  padding: 0.5rem 0;
+}
+
+.feedback--good {
+  color: #28a745;
+}
+
+.feedback-bad {
+  color: #dc3545;
+}
+
+/* Input styling customer edit form */
+.ce--input,
+.au--input,
+.form-control.ce--input,
+.form-control.au--input {
+  font-size: 1.6rem;
+}
+
+.search--icon {
+  position: absolute;
+  top: 20%;
+  left: 25px;
+  color: #d1d1d1;
+  font-size: 16px;
+}
+
+.input__filter {
+  font-size: 1.6rem;
+  padding-left: 35px;
+}
+
+.add-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.add-container__btn,
+.add-container__btn:hover {
+  font-size: 1.6rem;
+  color: white;
+  background-color: #73b99b;
+}
+
+select.form-control {
+  font-size: 1.6rem;
+}
+
+/* Form validation feedback */
+.ce__feedback {
+  padding-bottom: 0.5;
+}
+
+.ce--margin {
+  margin-top: 1.5rem;
+}
+
+/* customer edit update button */
+.btn.ce__update-button, .ce-overview--link {
+  color: black;
+  font-size: 1.6rem;
+  background-color: #d1d1d1;
+  border-color: #d1d1d1;
+}
+
+.btn.ce__update-button:hover, .ce-overview--link:hover {
+  color: white;
+  background-color: #73b99b;
+  border-color: #73b99b;
+}
+
+.ce-overview--link {
+  margin-right: 1.5rem;
+}
+
+/* customer details tables */
+.ce-overview,
+.dashboard__department {
+  margin-top: 8rem;
+}
+
+.ce-overview__table {
+  padding: 50px 0;
+}
+
+/* section title */
+.ce-overview__title {
+  font-size: 3.2rem;
+  padding-bottom: 1.5rem;
+}
+
+/* customer edit overview pills ul and tab content */
+.nav-tabs,
+.tab-content {
+  border: 1px solid #d1d1d1;
+}
+
+/* customer edit overview pills li */
+.ce-overview__tab {
+  padding: 0.4rem 0;
+}
+
+/* overview pills hover */
+.ce-overview__tab:hover {
+  background-color: #F7F7F7;
+}
+
+.ce-overview--link:hover {
+  text-decoration: none;
+}
+
+/* tab content container */
+.tab-content__container {
+  padding: 1.5rem 0 0.5rem;
+}
+
+/* customer edit overview pills tab content */
+.tab-content {
+  border-top: none;
+}
+
+/* customer edit overview pills tab container */
+.tab-pane {
+  margin: 0 1.5rem 1.5rem;
+}
+
+/* table status button */
+.btn.btn-status {
+  color: black;
+  font-size: 1.6rem;
+  background-color: #d1d1d1;
+  border-color: #d1d1d1;
+  cursor: pointer;
+}
+
+.btn.btn-status:hover {
+  color: white;
+  background-color: #73b99b;
+  border-color: #73b99b;
+}
+
+.tab-table__head,
+.customer__th_name,
+.customer__th_comment,
+.customer__td_refrence {
+  position: relative;
+}
+
+/* Styling for the sorting icons */
+.table__icon-top,
+.table__icon-bottom {
+  position: relative;
+}
+
+/* Shared styling */
+.table__icon, .table__icon-top, .table__icon-bottom {
+  width: 0;
+  height: 0;
+  display: inline-block;
+  line-height: inherit;
+  vertical-align: middle;
+  position: absolute;
+  margin-left: 15px;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+/* Top styling */
+.table__icon-top {
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 10px solid white;
+  top: 5px;
+}
+
+/* Bottom styling */
+.table__icon-bottom {
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 10px solid white;
+  bottom: 5px;
+}
+
+/* Active styling */
+.table__icon-top:hover,
+.table__icon-bottom:hover,
+.table__icon-active {
+  opacity: 1;
+}
+
+.tab-table__row {
+  cursor: pointer;
+}
+
+/* set a max with for the table cell */
+.tab-table__td {
+  width: auto;
+  max-width: calc(70vw / 3);
+}
+
+/* styling for autocomplete */
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 1.5rem;
+}
+
+.autocomplete-items div {
+  font-size: 1.6rem;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  border-bottom: 1px solid #d4d4d4;
+}
+
+/* when hovering an item: */
+.autocomplete-items div:hover {
+  background-color: #e9e9e9;
+}
+
+/* modal styling */
+.modal-title {
+  font-size: calc(16px * 1.25);
+}
+
+.close {
+  font-size: calc(16px * 1.5);
+}
+
+.modal-body, .modal-footer button {
+  font-size: 16px;
+}
+
+/* Department name on the index page */
+.dashboard--subtitle {
+  font-size: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.scan--feedback {
+  font-size: 1.6rem;
+}
+
+/* Dtyling for the scans on the index page */
+.scan {
+  margin: 0 0 25px;
+  background-color: white;
+  border: 1px solid black;
+  -webkit-box-shadow: 3px 2px #d1d1d1;
+          box-shadow: 3px 2px #d1d1d1;
+}
+
+/* container in the card */
+.scan__inner {
+  padding: 10px;
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+}
+
+/* progress of the scan on the left */
+.scan__progress {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 25%;
+  max-width: 300px;
+  min-width: 100px;
+}
+
+/* scan info of the scan on the right */
+.scan__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 75%;
+}
+
+/* styling the progress ring */
+.scan__progress-ring {
+  position: relative;
+}
+
+/* the circle itself */
+.scan__progress-circle {
+  fill: transparent;
+  stroke: #73b99b;
+  -webkit-transition: 0.35s stroke-dashoffset;
+  transition: 0.35s stroke-dashoffset;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+}
+
+/* Container for progress text */
+.scan__prograss-container {
+  position: absolute;
+}
+
+/* Progress text */
+.scan__progress-procent {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+/* Top of scan infor for title and dates */
+.scan-info-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+/* Scan title container */
+.scan-info__title {
+  width: calc(75% - 15px);
+  margin-right: 15px;
+}
+
+/* Scan dates container */
+.scan-info__dates {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+/* Scan info title */
+.scan--title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* Scan info dates */
+.scan-info--dates {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.75);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Scan info middle with introduction text */
+.scan-middle {
+  padding: 10px 0;
+  min-height: 140px;
+}
+
+/* hidden row on Question score */
+.row--hidden {
+  max-height: 0;
+  overflow: hidden;
+  display: none;
+  opacity: 0;
+}
+
+tr.filter-row {
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+}
+
+/* when you click on a row this class is toggled */
+tr.av__row,
+tr.av__row-active {
+  background-color: rgba(235, 235, 235, 0.8);
+}
+
+/* setting the score under the avagere score */
+.tab-table__td.av-row--score {
+  width: 25%;
+}
+
+/* changeing the th background color */
+.av__row th {
+  background-color: rgba(115, 185, 155, 0.8);
+  color: white;
+}
+
+.tab-table__icon {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.expend-icon {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+/*# sourceMappingURL=customer-edit.css.map */

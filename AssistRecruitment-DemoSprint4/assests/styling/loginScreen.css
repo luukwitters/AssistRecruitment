@@ -1,0 +1,32 @@
+body{
+    background-color: #F5F5F5;
+}
+
+a{
+    color: black;
+}
+
+.login-form {
+    position: absolute;
+    width: 30%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 15px;
+    background-color: #73B99B;
+    border-radius: 5px;
+    min-width: 350px;
+}
+
+.logo{
+    position: absolute;
+    width: 20%;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%);
+    min-width: 350px
+}
+
+.formButton{
+    width: 30%;
+}

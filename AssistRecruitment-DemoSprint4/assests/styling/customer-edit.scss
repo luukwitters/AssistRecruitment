@@ -1,0 +1,437 @@
+@import "variables";
+
+/* Container next to the sidebar */
+.page__container {
+    width: 100%;
+    height: auto;
+    padding-right: 5rem;
+}
+
+/* Page title */
+.ce__title {
+    margin: 2rem 0;
+    color: $green;
+    font-size: 3.5rem;
+}
+
+.ce--form-row{
+    padding: 1.5rem 0;
+}
+
+/* Label styling customer edit form */
+.ce__label,
+.au__label {
+    font-size: 1.6rem;
+}
+
+.ue-department__title {
+    font-size: 1.8rem;
+}
+
+/* styling for feedback */ 
+.feedback {
+    padding: 0.5rem 0;
+}
+
+.feedback--good {
+    @extend .ce__label;
+    color: $feedbackGood;
+}
+
+.feedback-bad {
+    @extend .ce__label;
+    color: $feedbackBad;
+}
+
+/* Input styling customer edit form */
+.ce--input,
+.au--input,
+.form-control.ce--input,
+.form-control.au--input {
+    font-size: 1.6rem;
+}
+
+// Styling for the search field with icon
+.search--icon {
+    position: absolute;
+    top: 20%;
+    left: 25px;
+    color: $grey;
+    font-size: 16px;
+}
+
+.input__filter {
+    font-size: 1.6rem;
+    padding-left: 35px;
+}
+
+.add-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.add-container__btn, 
+.add-container__btn:hover {
+    font-size: 1.6rem;
+    color: $white;
+    background-color: $green;
+}
+
+select.form-control{
+    // height: auto;
+    font-size: 1.6rem;
+}
+
+/* Form validation feedback */
+.ce__feedback {
+    padding-bottom: 0.5;
+}
+
+.ce--margin{
+    margin-top: 1.5rem;
+}
+
+/* customer edit update button */
+.btn.ce__update-button{
+    color: $black;
+    font-size: 1.6rem;
+    background-color: $grey;
+    border-color: $grey;
+}
+
+.btn.ce__update-button:hover {
+    color: $white;
+    background-color: $green;
+    border-color: $green;
+}
+
+.ce-overview--link {
+    @extend .btn.ce__update-button;
+    margin-right: 1.5rem;
+}
+
+.ce-overview--link:hover {
+    @extend .btn.ce__update-button:hover;
+}
+
+/* customer details tables */
+.ce-overview,
+.dashboard__department {
+    margin-top: 8rem;
+}
+
+.ce-overview__table {
+    padding: 50px 0;
+}
+
+/* section title */
+.ce-overview__title {
+    font-size: 3.2rem;
+    padding-bottom: 1.5rem;
+}
+
+/* customer edit overview pills ul and tab content */
+.nav-tabs,
+.tab-content {
+    border: 1px solid $grey;
+}
+
+/* customer edit overview pills li */
+.ce-overview__tab {
+    padding: 0.4rem 0;
+}
+
+/* overview pills hover */
+.ce-overview__tab:hover {
+    background-color: #F7F7F7;
+}
+
+.ce-overview--link:hover {
+    // color: inherit;
+    text-decoration: none;
+}
+
+/* tab content container */
+.tab-content__container {
+    padding: 1.5rem 0 0.5rem;
+}
+
+/* customer edit overview pills tab content */
+.tab-content {
+    border-top: none;
+}
+
+/* customer edit overview pills tab container */
+.tab-pane {
+    margin: 0 1.5rem 1.5rem;
+}
+
+/* table status button */
+.btn.btn-status {
+    color: $black;
+    font-size: 1.6rem;
+    background-color: $grey;
+    border-color: $grey;
+    cursor: pointer;
+}
+
+.btn.btn-status:hover {
+    color: $white;
+    background-color: $green;
+    border-color: $green;
+}
+
+.tab-table__head,
+.customer__th_name,
+.customer__th_comment, 
+.customer__td_refrence {
+    // cursor: pointer;
+    position: relative;
+}
+
+/* Styling for the sorting icons */
+.table__icon-top,
+.table__icon-bottom {
+    position: relative;
+}
+
+/* Shared styling */
+.table__icon {
+    width: 0;
+    height: 0;
+    display: inline-block;
+    line-height: inherit;
+    vertical-align: middle;
+    position: absolute;
+    margin-left: 15px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+/* Top styling */
+.table__icon-top {
+    @extend .table__icon;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 10px solid white;
+    top: 5px;
+}
+
+/* Bottom styling */
+.table__icon-bottom {
+    @extend .table__icon;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 10px solid white;
+    bottom: 5px;
+}
+
+/* Active styling */
+.table__icon-top:hover,
+.table__icon-bottom:hover,
+.table__icon-active {
+    opacity: 1;
+}
+
+.tab-table__row {
+    cursor: pointer;
+}
+
+/* set a max with for the table cell */
+.tab-table__td {
+    width: auto;
+    max-width: calc(70vw / 3);
+}
+
+/* styling for autocomplete */
+.autocomplete-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    /*position the autocomplete items to be the same width as the container:*/
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 1.5rem;
+}
+  
+.autocomplete-items div {
+    font-size: 1.6rem;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff; 
+    border-bottom: 1px solid #d4d4d4; 
+}
+  
+/* when hovering an item: */
+.autocomplete-items div:hover {
+    background-color: #e9e9e9; 
+}
+
+/* modal styling */
+.modal-title {
+    font-size: calc(16px * 1.25);
+}
+
+.close {
+    font-size: calc(16px * 1.5);
+}
+
+.modal-body, .modal-footer button {
+    font-size: 16px;
+}
+
+/* Department name on the index page */
+.dashboard--subtitle {
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.scan--feedback {
+    font-size: 1.6rem;
+}
+
+/* Dtyling for the scans on the index page */
+.scan {
+    margin: 0 0 25px;
+    background-color: $white;
+    border: 1px solid $black;
+    box-shadow: 3px 2px rgb(209, 209, 209);
+}
+
+/* container in the card */
+.scan__inner {
+    padding: 10px;
+    font-size: 16px;
+    display: flex;
+    height: auto;
+}
+
+/* progress of the scan on the left */
+.scan__progress {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    max-width: 300px;
+    min-width: 100px;
+}
+
+/* scan info of the scan on the right */
+.scan__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 75%;
+}
+
+/* styling the progress ring */
+.scan__progress-ring {
+    position: relative;
+}
+
+/* the circle itself */
+.scan__progress-circle {
+    fill: transparent;
+    stroke: $green;
+
+    transition: 0.35s stroke-dashoffset;
+    // axis compensation
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+}
+
+/* Container for progress text */
+.scan__prograss-container {
+    position: absolute;
+}
+
+/* Progress text */
+.scan__progress-procent {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+/* Top of scan infor for title and dates */
+.scan-info-top {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+/* Scan title container */
+.scan-info__title {
+    width: calc(75% - 15px);
+    margin-right: 15px;
+}
+
+/* Scan dates container */
+.scan-info__dates {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Scan info title */
+.scan--title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* Scan info dates */
+.scan-info--dates {
+    margin: 0;
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Scan info middle with introduction text */
+.scan-middle {
+    padding: 10px 0;
+    min-height: 140px;
+}
+
+/* hidden row on Question score */
+.row--hidden {
+    max-height: 0;
+    overflow: hidden;
+    display: none;
+    opacity: 0;
+}
+
+tr.filter-row {
+    transition: all 0.25s ease-in-out;
+    transition-delay: 0.5s;
+}
+
+/* when you click on a row this class is toggled */
+tr.av__row, 
+tr.av__row-active {
+    background-color: rgba(235, 235, 235, 0.8);
+}
+
+/* setting the score under the avagere score */
+.tab-table__td.av-row--score {
+    width: 25%;
+}
+
+/* changeing the th background color */
+.av__row th{
+    background-color: rgba(115, 185, 155, 0.8);
+    color: $white;
+}
+
+.tab-table__icon {
+    transition: all 0.5s ease-in-out;
+}
+
+.expend-icon {
+    transform: rotate(180deg);
+}

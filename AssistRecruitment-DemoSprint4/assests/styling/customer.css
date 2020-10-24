@@ -1,0 +1,125 @@
+.customer__row {
+  padding: 5px;
+}
+
+.customer__th_name {
+  padding: 5px;
+  text-align: left;
+  border-bottom: 1px solid #d1d1d1;
+  max-width: 1vw;
+}
+
+.customer__th_refrence {
+  padding: 5px;
+  text-align: left;
+  border-bottom: 1px solid #d1d1d1;
+  max-width: 1vw;
+}
+
+.customer__th_icon {
+  padding: 5px;
+  text-align: left;
+  border-bottom: 1px solid #d1d1d1;
+  max-width: 1vw;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.customer__th_comment {
+  padding: 5px;
+  text-align: left;
+  border-bottom: 1px solid #d1d1d1;
+  max-width: 3vw;
+}
+
+.customer__td_comment {
+  padding: 5px;
+  text-align: left;
+  border-bottom: 1px solid #d1d1d1;
+  max-width: 3vw;
+}
+
+.customer__td_name {
+  padding: 5px;
+  text-align: left;
+  border-bottom: 1px solid #d1d1d1;
+  max-width: 1vw;
+}
+
+.customer__td_refrence {
+  padding: 5px;
+  text-align: left;
+  border-bottom: 1px solid #d1d1d1;
+  max-width: 1vw;
+}
+
+.customer__td_icon {
+  padding: 5px;
+  text-align: left;
+  border-bottom: 1px solid #d1d1d1;
+  max-width: 1vw;
+}
+
+th {
+  background-color: #73b99b;
+  color: white;
+  cursor: default;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+a.deleteKnop,
+a.deleteKnop:hover {
+  padding: 5px 10px;
+  color: white;
+  background-color: #e66565;
+  border-radius: 10%;
+}
+
+.customer__header {
+  color: #73b99b;
+  padding: 24px 0px;
+}
+
+.editKnop,
+.editKnop:hover {
+  padding: 5px 10px;
+  color: white;
+  background-color: #f7b80a;
+  border-radius: 10%;
+}
+
+.profileKnop,
+.profileKnop:hover {
+  padding: 5px 10px;
+  color: white;
+  background-color: #0ecfec;
+  border-radius: 10%;
+}
+
+.customer__select {
+  padding-bottom: 1rem;
+}
+
+select.form-control {
+  height: auto;
+}
+
+.btn.btn-status {
+  background-color: #d1d1d1;
+  border-color: #d1d1d1;
+}
+
+.btn.btn-status:hover {
+  background-color: #73b99b;
+  border-color: #73b99b;
+}
+
+.page__content {
+  width: 100%;
+  padding-right: 5rem;
+}
+/*# sourceMappingURL=customer.css.map */

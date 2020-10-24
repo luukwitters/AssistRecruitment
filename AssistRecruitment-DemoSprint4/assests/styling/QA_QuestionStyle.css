@@ -1,0 +1,28 @@
+.container-margin {
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:10px;
+}
+
+.container-margin, .form-control, .btConfirm {
+    font-size: 16px;
+}
+
+form{
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:10px;
+}
+
+#selCategory, #selQuestionType, #selStatus, #taExample, #txQuestion{
+    width:400px;
+}
+#taExample{
+    line-height: 4;
+}
+#lbTitel{
+    font-size:40px;
+}
+table{
+    font-size:10px;
+}
